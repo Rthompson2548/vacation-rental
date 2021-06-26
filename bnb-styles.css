@@ -1,0 +1,162 @@
+header {
+  background-color: #fc4162;
+  /* top right bottom left */
+  padding: 10px 50px 5px 50px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Pangolin', cursive;
+  font-size: 50px;
+  margin: 5px 0 0 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+header nav ul li a {
+  /* top right bottom left */
+  margin: 0 10px 0 0;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+header nav ul li:last-child a {
+  margin-right: 35px;
+}
+
+legend {
+  display: none;
+}
+
+#perfect-rental {
+  /* need to make text wrap in center */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
+  margin:25px;
+  font-size: 22px;
+}
+
+/* figure out how to format properly */
+label {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#fields {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  padding: 10px 10px 10px 10px;
+  background-color: #fc4162;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: 550;
+  font-size: 16px;
+  border: none;
+}
+
+input, select {
+  width: 66%;
+}
+
+fieldset {
+  /* can still see black border line */
+  border-color: #fc4162;
+  margin: 25px 50px 0 50px;
+  padding: 5px 1px 0 1px;
+}
+
+#about {
+  background-color: #23a197;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  padding: 5px 20px 5px 20px;
+  margin: 25px;
+}
+
+#about-info {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+section h2 {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+section p {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+#ideas h3, h4 {
+    font-family: 'Lato', sans-serif;
+      /* top right bottom left */
+    padding: 0 0 0 30px;
+    font-size: 16px;
+}
+
+#host {
+  background-color: #23a197;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 8px;
+  padding: 5px 20px 5px 20px;
+  margin: 0 25px 0 25px;
+}
+
+#host-title {
+  line-height: 1.25em;
+  display:flex;
+  font-size: 20px;
+  justify-content: center;
+}
+
+#host ul, li {
+  font-size: 16px;
+}
+
+footer {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  background-color: #fc4162;
+  margin: 0 25px 0 25px;
+  padding: 5px 20px 5px 20px;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+#ideas-title {
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 50px;
+  font-size: 22px;
+}
+
+@media <media type> (min-width: 800px) {
+  input, select {
+    display: flex;
+    flex-direction: row;
+  }
+}

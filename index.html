@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" type="text/css" href="bnb-styles.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+   </head>
+   <!-- header -->
+   <header>
+      <div id = "top-section">
+         <h1>Thinkfulbnb</h1>
+         <nav id ="menu">
+            <ul id = "">
+               <li><a href = "">Stay</a></li>
+               <li><a href = "">About</a></li>
+               <li><a href = "">Ideas</a></li>
+               <li><a href = "">Host</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+   <main>
+   <!-- vacation rental form -->
+   <section>
+   <div id = "find-rental">
+      <h2 id = "perfect-rental">Find the perfect vacation rental</h2>
+      <fieldset id = "user-reqs">
+         <legend>Find the perfect vacation rental</legend>
+         <div id = "fields">
+            <label for = "location">Location</label>
+            <input 
+               id = "type-here"
+               id = "location" 
+               type = "text" 
+               name = "location"
+               placeholder= "Search destination"/>
+         </div>
+         <div id = "fields">
+            <label for = "arrive">Arrive</label>
+            <input 
+               id = "type-here"
+               id = "arrive"
+               type = "date"
+               name = "arrive"
+               />
+         </div>
+         <div id = "fields">
+            <label for = "depart">Depart</label>
+            <input 
+               id = "type-here"
+               id = "depart"
+               type = "date"
+               name = "depart"
+               />
+         </div>
+         <div id = "fields">
+            <label for = "type">Type</label>
+            <select name = "types" id = "type">
+               <option value = "apartment">Apartment</option>
+               <option value = "house">House</option>
+               <option value = "loft">Loft</option>
+               <option value = "hotel">Hotel</option>
+               <option value = "tiny-home">Tiny home</option>
+               <option value = "other">Other</option>
+            </select>
+         </div>
+         <div id = "fields">
+            <button type="search">Search</button>
+         </div>
+      </fieldset>
+   </div>
+   </section>
+   <!-- about section -->
+   <section id = "about">
+      <h2>About</h2>
+      <!-- figure out how to show images  -->
+      <img
+          src= "images/vacation-rental-pool.png"
+          alt="Thinkfulbnb - Vacation rental pool"
+        />
+        <br>
+        <img
+          src= "images/vacation-rental-inside-stone.png"
+          alt="Thinkfulbnb - Vacation rental inside stone"
+        /> 
+        <p id = "about-info">
+         Fusce porta odio nunc, eget pretium massa rutrum sit amet. Etiam
+         fringilla aliquam dapibus. Maecenas quis nisi sed turpis aliquam
+         porttitor eget ut quam. Sed vel scelerisque ex. Duis in pharetra
+         neque, at tempus lorem. Aenean mi magna, posuere at quam sed, euismod
+         gravida neque.
+       </p>
+   </section>
+   <!-- ideas -->
+   <section id = "ideas">
+      <h2 id = "ideas-title">Ideas</h2>
+      <div id = "image-idea">
+         <h3>Forest retreats</h3>
+         <img
+          src= "images/forest-retreat.png"
+          alt="Woman meditating in the forest"
+        />
+      </div>
+      <div id = "image-idea">
+         <h3>Beaches</h3>
+         <img
+         src= "images/beach-house.png"
+         alt="Houses on the beach"
+       />     
+      </div>
+      <div id = "image-idea">
+         <h3>Rustic cabins</h3>
+         <img
+         src= "images/cabin.png"
+         alt="Cabin on the forest"
+       />      
+      </div>
+      <div id = "image-idea">
+         <h3>Pet-friendly</h3>
+         <img
+         src= "images/pet-friendly.png"
+         alt="Cat sitting on a table"
+       />
+      </div>
+   </section>
+
+   <!-- become a host -->
+   <section id = "host">
+      <h2 id = "host-title">Want to Become a Thinkfulbnb Host?</h2>
+      <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+         molestie in est id efficitur. Sed hendrerit ut turpis quis dapibus.
+         Nam sit amet iaculis lectus. Aliquam erat volutpat. Praesent rhoncus
+         pellentesque eros in aliquet. Sed accumsan elit lacus, id ultrices
+         libero rutrum vitae.
+       </p>
+       <ul>
+         <li>Mauris in pellentesque ligula.</li>
+         <li>Sed accumsan elit lacus, id ultrices libero rutrum vitae.</li>
+         <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
+         <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
+         <li>
+           Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget
+           hendrerit mauris.
+         </li>
+       </ul>
+       <img
+         src= "images/become-a-host.png"
+         alt="Man standing at check-in desk"
+       />
+   </section>
+   <!-- footer -->
+   <footer>
+      <h3>© Thinkful</h3>
+   </footer>
+   </main>
+</html>
