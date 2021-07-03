@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Pangolin&family=Lato&display=swap"
       rel="stylesheet"
     />
-    <link href="bnb-styles.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
@@ -34,8 +34,7 @@
 
       <section id="stay">
         <h2>Find the perfect vacation rental</h2>
-         Create a form here -->
-        <!-- <form class="container">
+        <form class="container">
           <div class="criteria">
             <label for="location">Location</label>
             <input id="location" type="text" placeholder="Search destination"/>
@@ -62,8 +61,7 @@
          </div>
           <button type="submit">Search</button>
         </form>
-      </section> -->
-<!-- 
+      </section>
       <section id="about" class="about-host-background">
         <h2>About</h2>
         <div class="row">
@@ -133,8 +131,7 @@
           <li>Nunc vitae ex eget neque pellentesque porttitor.</li>
           <li>Cras mollis lorem sagittis sapien imperdiet blandit. Vivamus.</li>
           <li>
-            Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget -->
-            <!-- hendrerit mauris.
+            Donec vehicula ipsum nisi, eu consectetur leo feugiat et. Fusce eget 
           </li>
         </ul>
         </div>
@@ -146,54 +143,7 @@
     </main>
 
     <footer>
-      <p>© Thinkful</p> -->
-    <!-- </footer>
+      <p>© Thinkful</p> 
+   </footer>
   </body>
-</html> -->
-
-
-import "./index.css";
-
-const main = () => {
-    const form = document.querySelector(".search");
-    form.addEventListener("submit", submitHandled);
-  };
-
-const submitHandled = (event) => {
-  event.preventDefault();
-  const formData = new FormData(event.target);
-  const searchContent = formData.get("searchTerm").toLowerCase();
-  const preventError = searchForm.querySelector(".error");
-  if () searchForm.removeChild(preventError);
-  errorHandler((searchContent), searchContent);
-};
-
-const validData = (value) => {
-  if (!value.trim()) {
-    const error = document.createElement("div");
-    error.id = "searchError";
-    error.classList = "error";
-    error.innerText = `Please enter a search term`;
-    return error;
-  }
-  return false;
-};
-
-function errorHandler(errors, searchContent) {
-    const searchForm = document.querySelector("#searchForm");
-    if (!errors) {
-      const headings = document.querySelectorAll("h2");
-      for (let element of headings) {
-        const parent = element.closest("article");
-        parent.classList.remove("hidden");
-        if (!element.innerText.toLowerCase().includes(searchContent)) {
-          parent.classList.add("hidden");
-        }
-      }
-    } else {
-      errors.style.display = "block";
-      searchForm.appendChild(errors);
-    }
-  }
-
-window.addEventListener("DOMContentLoaded", main());
+</html>
