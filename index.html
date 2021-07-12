@@ -46,6 +46,40 @@
         <form>
           <div class="criteria">
             <label for="location">Location</label>
+            <input
+              id="location"
+              type="text"
+              name="location"
+              placeholder="Search destination"
+            />
+          </div>
+          <div class="criteria">
+            <label for="arrive">Arrive</label>
+            <input id="arrive" type="date" name="arrive" />
+          </div>
+          <div class="criteria">
+            <label for="depart">Depart</label>
+            <input id="depart" type="date" name="depart" />
+          </div>
+          <div class="criteria">
+            <label for="type">Type</label>
+            <select name="type" id="type" size="1">
+              <option value="apartment">Apartment</option>
+              <option value="barn">Barn</option>
+              <option value="castle">Castle</option>
+              <option value="houseboat">Houseboat</option>
+              <option value="tiny house">Tiny House</option>
+              <option value="yacht">Yacht</option>
+              <option value="yurt">Yurt</option>
+            </select>
+          </div>
+          <div>
+            <button type="submit">Search</button>
+          </div>
+        </form>
+        <!-- <form>
+          <div class="criteria">
+            <label for="location">Location</label>
             <input id="location" type="text" placeholder="Search destination"/>
           </div>
           <div>
@@ -68,7 +102,7 @@
             </select>
           </div>
           <button type="submit">Search</button>
-        </form>
+        </form> -->
       </section>
     
       <!-- about section -->
