@@ -15,7 +15,7 @@ body {
 
 header {
   background-color: #fc4162;
-  padding: 20px 20px 0 20px;
+  padding: 0px 20px;
   text-align: center;
 }
 
@@ -81,6 +81,9 @@ section.about-host-background {
   color: #ffffff;
 }
 
+/* .text-center {
+  text-align: center;
+} */
 
 img {
   width: 100%;
@@ -118,7 +121,7 @@ form button {
   border: none;
   color: #fff;
   font-size: 24px;
-  padding: 15px;
+  padding: 15px 30px;
   width: 100%;
 }
 
@@ -222,7 +225,7 @@ footer p {
   }
 
  #host h2 {
-   justify-content: left;
+   /* justify-content: left; */
    align-items: left;
  }
 }
