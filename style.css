@@ -60,6 +60,7 @@ h2 {
 
 p {
   font-size: 20px;
+  margin-top: 50px;
 }
 
 h3 {
@@ -137,7 +138,10 @@ button {
   padding: 2px 20px;
   font-weight: bold;
   border-radius: 4px;
-  margin-top: 10px;
+}
+
+button p {
+  margin-top: 16px !important;
 }
 
 input {
@@ -187,9 +191,9 @@ footer p {
     width: auto;
     display: inline-flex;
     justify-content: flex-end;
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 16px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
   
   button p {
