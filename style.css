@@ -1,17 +1,13 @@
 /* mobile view styles */
 
 body {
-  font-family: "Shippori Antique", sans-serif;
-}
-
-h1 {
-  font-size: 60px;
+  font-family: "Lato", sans-serif;
 }
 
 .title {
-  font-family: "Shippori Antique", sans-serif;
+  font-family: "Pangolin", cursive;
+  font-size: 72px;
   color: #fff;
-  margin-bottom: 20px;
 }
 .criteria {
   display: flex;
@@ -21,7 +17,8 @@ h1 {
 
 header {
   background-color: #fc4162;
-  padding-left: 18px;
+  padding: 0px 20px;
+  text-align: center;
 }
 
 header nav {
