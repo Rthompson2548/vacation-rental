@@ -9,18 +9,17 @@ body {
 
 .title {
   font-family: "Shippori Antique";
-  font-size: 72px;
+  font-size: 46px;
   color: #fff;
-  padding: 20px;
-  margin-bottom: 10px;
-  font-weight: 600;
+  white-space: nowrap;
+  margin-left: 24px;
 }
 
 .criteria {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-} 
+}
 
 header {
   padding: 0px 20px;
@@ -39,17 +38,14 @@ header nav ul {
 
 header nav ul li {
   list-style-type: none;
-  font-size: 22px;
-  font-weight: 800;
-  margin-right: 32px;
+  font-size: 16px;
+  margin-left: 18px;
 }
 
 header nav ul li a {
   color: #ffffff;
   text-decoration: none;
 }
-
-
 
 h2 {
   font-size: 50px;
@@ -68,7 +64,6 @@ h3 {
   font-weight: 800;
   margin-top: 36px;
 }
-
 
 .col {
   flex-direction: column;
@@ -89,18 +84,39 @@ section {
   flex-direction: column;
 }
 
+.section-title {
+  margin-left: 12px;
+  font-size: 36px;
+  font-weight: 100;
+  line-height: 50px;
+}
+
+.section-text {
+  font-size: 16px;
+}
+
+.finder-title {
+  margin-left: 10px;
+  font-weight: 100;
+  margin-bottom: 28px;
+}
+
 .about-host-background {
   display: flex;
   justify-content: center;
   line-height: 30px;
 }
 
-
 img {
   display: flex;
   justify-content: center;
   width: 50%;
   margin-bottom: 40px;
+}
+
+.ideas-image-text {
+  font-size: 22px;
+  font-weight: 100;
 }
 
 .group {
@@ -127,15 +143,13 @@ form label {
   font-weight: 900;
   font-size: 18px;
   margin-bottom: 3px;
-  
 }
 
 button {
-  background-color: #5cdb95;
+  background-color: #0fb834;
   border: none;
   color: #fff;
-  font-size: 22px;
-  padding: 2px 20px;
+  padding: 0 16px;
   font-weight: bold;
   border-radius: 4px;
 }
@@ -147,22 +161,18 @@ button p {
 input {
   margin: 8px 0px;
   width: 75%;
-} 
+}
 
 select {
   margin: 8px 0px;
   width: 100%;
 }
 
-
-footer p {
+.footer-text {
   color: #fff;
   text-align: center;
-  margin-bottom: 36px !important;
-  font-weight: 800;
-  font-size: 24px;
+  font-size: 16px;
 }
-
 
 /* media query styles */
 
@@ -195,16 +205,14 @@ footer p {
     font-size: 16px;
     margin-top: 10px;
   }
-  
+
   button p {
     font-size: 18px;
-
   }
 
   .criteria {
     flex-direction: column;
   }
-
 
   top .row {
     display: flex;
@@ -247,10 +255,8 @@ footer p {
     flex: 50%;
   }
 
-
   .centered h2 {
     display: flex;
     justify-content: center;
   }
-
 }
